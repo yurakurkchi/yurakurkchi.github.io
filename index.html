@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <style>
+            #container{
+                text-align: center;
+
+            }
+
+        </style>
+    </head>
+    <body>
+   <button onclick="image_search()"> Image search</button>
+   <button onclick="advanced_search()"> Advanced search</button>
+
+   <form id="container" action="https://google.com/search">
+            <label>
+                <input type="text" name="q">
+            </label>
+            <input type="submit" value="Google Search">
+
+        </form>
+    <script>
+        function image_search(){window.location.href="https://google.com/imghp"}
+        function advanced_search(){window.location.href="https://google.com/search"}
+    </script>
+    </body>
+</html>
