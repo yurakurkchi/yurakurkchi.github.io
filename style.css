@@ -1,20 +1,30 @@
 
-#one_col_gird{
+body{
+    background-image: url("1616581506_27-p-fon-dlya-brauzera-32.jpeg");
+    background-position: top;
+    background-size: 130%;
+}
+#container{
     text-align: center;
     max-width: 50%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-
     }
-#but{
-    float: right;
-    padding: 10px;
-    margin: 3px;
 
+.but{
+    width: 150px;
+    height: 45px;
+    font-size: 14px;
+    background-color: #ffffff;
+    border-radius: 50%;
 
 }
+.but:hover{
+            color: #ac8ffd;
+        }
+
 img {
     display: flex;
     max-width: 50%;
@@ -22,4 +32,39 @@ img {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    border-radius: 40%;
 }
+
+#fon {
+    background: #7D81FD;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+p{
+    display: flex;
+    font-size:20px;
+ }
+
+#a_but{
+    text-align: center;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 20px;
+    padding: 20px;
+    line-height: 14px;
+    max-height: 18px;
+    max-width: 140px;
+    min-width: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.lab{
+    width: 50%;
+}
+

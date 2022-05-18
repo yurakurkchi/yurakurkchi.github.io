@@ -1,27 +1,29 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
     <head>
+        <meta charset="UTF-8">
         <title>Search</title>
     </head>
         <link rel="stylesheet" href="style.css">
 
     <body>
+    <div >
    <button class="but" onclick="image_search()"> Image search</button>
    <button class="but" onclick="advanced_search()"> Advanced search</button>
-   <div></div>
+   </div>
    <a href="index.html"><img class="centered" src="My_google.png" alt="My google logo" ></a>
 
    <form id="container" action="https://google.com/search">
             <label>
-                <input type="text" name="q">
+                <input class="lab" type="search" name="q" placeholder="Введите текст">
             </label>
-            <input type="submit" value="Google Search">
+            <input class="but" type="submit" value="Google Search">
 
         </form>
     <script>
-        function image_search(){window.location.href="https://yurakurkchi.github.io/image"}
-        function advanced_search(){window.location.href="https://google.com/search"}
+        function image_search(){window.location.href="image.html"}
+        function advanced_search(){window.location.href="advanced.html"}
     </script>
     </body>
 </html>

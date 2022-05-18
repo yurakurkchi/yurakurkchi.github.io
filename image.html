@@ -7,20 +7,20 @@
         <link rel="stylesheet" href="style.css">
 
 <body>
- <div class="top_buttons">
-            <form action="index.html">
-                <button class="but">Back to Google search</button>
+ <div>
+            <form  action="index.html">
+                <button class="but"> Back to Google search</button>
             </form>
         </div>
         <div>
-            <a href="index.html"><img class="centered" src="My_google.png" alt="My google logo"></a>
-            <section class="one_col_gird">
-                <form class="centered" action="https://google.com/search">
-                    <input class="search_imput" type="text" name="q">
+            <a href="index.html"><img src="My_google.png" alt="My google logo"></a>
+            <section>
+                <form id="container" action="https://google.com/search">
+                    <label class="lab">
+                        <input type="search" name="q" placeholder="Введите текст" >
+                    </label>
                     <input type="hidden" name="tbm" value="isch">
-                    <section class="centered">
-                        <input class="main_search_button" type="submit" value="Picture Search">
-                    </section>
+                    <input type="submit" value="Picture Search">
                 </form>
             </section>
         </div>
